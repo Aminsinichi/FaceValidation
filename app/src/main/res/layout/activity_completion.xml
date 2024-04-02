@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- First TextView for the 'You did a good job' message -->
+    <TextView
+        android:id="@+id/mainMessage"
+        android:layout_width="324dp"
+        android:layout_height="132dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="You did a very good job in doing this task!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- ImageView for the trophy -->
+    <ImageView
+        android:id="@+id/trophyImage"
+        android:layout_width="231dp"
+        android:layout_height="329dp"
+        android:layout_below="@id/mainMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/trophy" />
+
+    <!-- Second TextView for the 'Data is saved' message -->
+    <TextView
+        android:id="@+id/subMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trophyImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="The data is saved successfully on your device."
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+</RelativeLayout>

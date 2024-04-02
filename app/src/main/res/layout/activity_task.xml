@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_marginTop="126dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:columnOrderPreserved="false"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/button_angry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF0000"
+            android:text="Angry"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_surprise"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FFA500"
+            android:text="Surprise"
+            android:textColor="#130404" />
+
+        <Button
+            android:id="@+id/button_sad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#000000"
+            android:text="Sad"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_neutral"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#808080"
+            android:text="Neutral"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_fearful"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FFFF00"
+            android:text="Fearful"
+            android:textColor="#100E0E" />
+
+        <Button
+            android:id="@+id/button_happy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#008000"
+            android:text="Happy"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_none"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="None"
+            android:textColor="#000000" />
+
+    </GridLayout>
+</RelativeLayout>
+
