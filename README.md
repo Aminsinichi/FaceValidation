@@ -30,7 +30,7 @@ The FaceValidation app is designed for emotional validation studies. It presents
 
 Below is a visual representation of how the FaceValidation app works:
 
-![FaceValidation App Workflow](https://github.com/Aminsinichi/FaceValidation/blob/main/docs/img/example.png)
+![FaceValidation App Workflow](https://github.com/Aminsinichi/FaceValidation/blob/master/docs/img/example.png)
 
 1. **Home Screen:** This is the initial screen presented to the user. It contains two buttons: "Start the Task" which begins the emotion selection task, and "Stored Data" which allows users to view data saved from previous sessions.
 
