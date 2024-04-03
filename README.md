@@ -53,7 +53,7 @@ Below is a visual representation of how the FaceValidation app works:
 - The emotions are listed as buttons in the `activity_task.xml` layout file.
 - To modify the emotions, change the text of the buttons and ensure the `onClick` handlers in `TaskActivity` are updated to reflect any new emotions.
 
-## Advancds Customization
+## Advanced Customization
 
 ### Extending the Image Sets
 
@@ -109,5 +109,5 @@ This work is an output of the ALIVE project (Improving Adolescent mentaL health 
 
 For any questions regarding the app, please contact:
 
-<aminsinichi@gmail.com>
-<m.sinichi@vu.nl>
+- <aminsinichi@gmail.com>
+- <m.sinichi@vu.nl>
