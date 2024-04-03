@@ -26,6 +26,20 @@ The FaceValidation app is designed for emotional validation studies. It presents
 - When a participant starts a task, images from one of the sets are randomly selected and presented. The order of images is also randomized to ensure variability in each session.
 - Participants indicate the emotion they perceive in each image by selecting one of the provided options. The app logs their response along with the reaction time, which is the interval between the image presentation and the response.
 
+## Example Usage
+
+Below is a visual representation of how the FaceValidation app works:
+
+![FaceValidation App Workflow](https://github.com/Aminsinichi/FaceValidation/blob/main/docs/img/example.png)
+
+1. **Home Screen:** This is the initial screen presented to the user. It contains two buttons: "Start the Task" which begins the emotion selection task, and "Stored Data" which allows users to view data saved from previous sessions.
+
+2. **Participant Input Screen:** Here, participants enter their ID, Age, and Gender before starting the task.
+
+3. **Task Screen:** This is where participants view the images and select the emotion they perceive. The emotions are represented by buttons with distinct colors.
+
+4. **Data Log Screen:** After the completion of the tasks, the app presents a log of the collected data in CSV format, displaying Participant ID, Age, Gender, Date, Photo ID, Response, and Reaction Time.
+
 ## Customization
 
 ### Changing Images
